@@ -7,12 +7,12 @@ Here we explore the use of jupyter notebooks, together with the package voila an
 to test if the development of a dashboard
 
 Show the jupyter notebook online at mybinder.org
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/robot144/wetwin/HEAD?labpath=show_timeseries.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/robot144/wetwin/HEAD?labpath=rhine_meuse_delta_v1.ipynb)
 
 You can also directly launch a notebook as an app in binder.
-- for show_timeseries_from_nextcloud.ipynb [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/robot144/wetwin/HEAD?urlpath=voila%2Frender%2Fshow_timeseries_from_nextcloud.ipynb)
+- for show_timeseries_from_nextcloud.ipynb [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/robot144/wetwin/HEAD?urlpath=voila%2Frender%2Frhine_meuse_delta_v1.ipynb)
 
-There are two other notebooks with more tests:
+There are several other notebooks with tests and examples for individual components:
 - for widgets.ipynb [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/robot144/wetwin/HEAD?urlpath=voila%2Frender%2Fwidgets.ipynb)
 - for show_timeseries.ipynb [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/robot144/wetwin/HEAD?urlpath=voila%2Frender%2Fshow_timeseries.ipynb)
 
