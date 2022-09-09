@@ -11,3 +11,4 @@ ipyleaflet
 ipywidgets
 zarr
 fsspec
+aiohttp
