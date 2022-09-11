@@ -8,14 +8,15 @@ to test if the development of a dashboard is both feasible and eficient in this 
 
 Currently there is one demo noteook:
 
-1. *Rhine Meuse outflow and delta* The notebook shows data from a 3D hydrodynamics simulation from a Delft3-FM model with arelatively coarse grid. This ZUNO-RMM model is being developed currently to support the developement of data-assimilation methods for the region. You can run the notebook `rhine_meuse_delta_v1.ipynb` also at mybinder using this link: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/robot144/wetwin/HEAD?labpatforh=rhine_meuse_delta_v1.ipynb) This will trigger the generation of a docker container with jupiterlab and this repository, which is then started in the cloud. You'll only need a modern browser locally. This will show the notebook and allows you to run and edit the code.
+1. *Rhine Meuse outflow and delta* The notebook shows data from a 3D hydrodynamics simulation from a Delft3-FM model with arelatively coarse grid. This ZUNO-RMM model is being developed currently to support the developement of data-assimilation methods for the region. You can run the notebook `rhine_meuse_delta_v1.ipynb` also at mybinder using this link: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/robot144/wetwin/HEAD?labpath=rhine_meuse_delta_v1.ipynb) This will trigger the generation of a docker container with jupiterlab and this repository, which is then started in the cloud. You'll only need a modern browser locally. This will show the notebook and allows you to run and edit the code.
 You can also directly launch a notebook as an app in binder. [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/robot144/wetwin/HEAD?urlpath=voila%2Frender%2Frhine_meuse_delta_v1.ipynb)
 
 In addition to this demo, there are a few notebooks that illustrate aspects of the tools that are used. They are simply notes and tests for a particular technique. most likely not all cells are working at any time.
 
-- for ipywidgets widgets.ipynb [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/robot144/wetwin/HEAD?urlpath=widgets.ipynb)
-- for ipyleaflet maps maps.ipynb [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/robot144/wetwin/HEAD?urlpath=maps.ipynb)
-- for xarray for access to zarr data over internet, zunormm_data.ipynb [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/robot144/wetwin/HEAD?urlpath=zunormm_data.ipynb)
+- for ipywidgets widgets.ipynb [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/robot144/wetwin/HEAD?labpath=widgets.ipynb)
+- for ipyleaflet maps maps.ipynb [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/robot144/wetwin/HEAD?labpath=maps.ipynb)
+- for xarray for access to zarr data over internet, zunormm_data.ipynb [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/robot144/wetwin/HEAD?labpath=zunormm_data.ipynb)
+- for access to csv data over internet with pandas, data_timeseries.ipynb [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/robot144/wetwin/HEAD?labpath=data_timeseries.ipynb)
 
 
 ### Some technical notes
