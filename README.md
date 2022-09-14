@@ -6,10 +6,11 @@ Collaborative digital twin modelling
 Here we explore the use of jupyter notebooks, together with the package voila and the online service of mybinder.org to create a dashboard directly from a github repository with several jupyter notebooks. The aim is 
 to test if the development of a dashboard is both feasible and eficient in this way.
 
-Currently there is one demo noteook:
+Currently there is two demo noteooks:
 
 1. *Rhine Meuse outflow and delta* The notebook shows data from a 3D hydrodynamics simulation from a Delft3-FM model with arelatively coarse grid. This ZUNO-RMM model is being developed currently to support the developement of data-assimilation methods for the region. You can run the notebook `rhine_meuse_delta_v1.ipynb` also at mybinder using this link: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/robot144/wetwin/HEAD?labpath=rhine_meuse_delta_v1.ipynb) This will trigger the generation of a docker container with jupiterlab and this repository, which is then started in the cloud. You'll only need a modern browser locally. This will show the notebook and allows you to run and edit the code.
 You can also directly launch a notebook as an app in binder. [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/robot144/wetwin/HEAD?urlpath=voila%2Frender%2Frhine_meuse_delta_v1.ipynb)
+2. *European North-west Continental Shelf* with source [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/robot144/wetwin/HEAD?labpath=dcsm_v1.ipynb) play app without source [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/robot144/wetwin/HEAD?urlpath=voila%2Frender%2Fdcsm_v1.ipynb)
 
 In addition to this demo, there are a few notebooks that illustrate aspects of the tools that are used. They are simply notes and tests for a particular technique. most likely not all cells are working at any time.
 
