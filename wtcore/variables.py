@@ -4,11 +4,6 @@
 # ListVariable(name: str,label: str, items=[])
 
 
-#class Observer: #base class for observers
-#    def update(self,v):
-#        # you should override this function with something meaningful
-#        pass
-
 """
 Variable is an abstract class for a variable (integer, float,...). It encapsulates the python 
 variable and and a name, and methods to observe changes to the variable. Using the observer
