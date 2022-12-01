@@ -9,6 +9,8 @@ class wtPlot(widgets.Output):
         # layout = widgets.Layout(width="100%",height='400px')
         super().__init__(*args,**kwargs)
         fig, ax = plt.subplots() #figsize=(6, 4)
+        fig.canvas.header_visible = False
+        fig.tight_layout()
         self._fig=fig
         self._ax=ax
         self._variables=variables
