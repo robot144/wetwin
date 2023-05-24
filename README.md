@@ -1,3 +1,9 @@
+
+# This repository has moved to https://github.com/SALTISolutions/wetwin
+
+__This repo is no longer updated and will be deleted after some time.__
+
+
 # wetwin
 Collaborative digital twin modelling
 
